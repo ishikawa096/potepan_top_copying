@@ -50,7 +50,7 @@ display: block;
     }
 }
 .logo:hover {
-    opacity: 0.9;
+    opacity: 0.6;
     transition: 0.5s;
 }
 .logo_img {
@@ -104,7 +104,7 @@ a.nav_item:active {
 }
 .header_button:hover {
     opacity: 0.7;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 @media (max-width: 1080px) {
     .header { 
@@ -286,7 +286,7 @@ a.nav_item:active {
 }
 .buttons a:hover {
     opacity: 0.7;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .buttons a:last-of-type{
     background-color: #FFFFFF;
@@ -382,8 +382,9 @@ a.nav_item:active {
     font-weight: 900;
 }
 .about_button:hover {
-    transition: opacity 0.2s;
-}
+        opacity: 0.7;
+        transition: 0.2s;
+    }
 @media (max-width: 1080px) {
     .about_container {
         flex-direction: column;
