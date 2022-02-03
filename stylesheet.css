@@ -123,22 +123,7 @@ a.nav_item:active {
     }
     .nav_list {
         display: none;
-        list-style: none;
-        overflow-y: scroll;
-        position: fixed;
-        top: 60px;
-        left: 100%;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 75px;
-        transition: transform 0.5s;
-        z-index: 99;
-        background-color: rgba(0, 0, 0, 0.8);
-        height: 100%;
     }
-    .nav_item {
-        margin-right: 0;
-    } 
 }
 @media (max-width: 767px) {
     .header {
@@ -157,7 +142,6 @@ a.nav_item:active {
         position: relative;
         width: 30px;
         height: 21px;
-        z-index: 100;
         right: 50px;
         margin-right: 20px;
     }
@@ -296,7 +280,6 @@ a.nav_item:active {
     justify-content: center;
     text-decoration: none;
     text-align: center;
-    width: 100%;
     height: 64px;
     margin-right: 15px;
     width: 306px;
